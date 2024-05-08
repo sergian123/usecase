@@ -1,0 +1,9 @@
+@startul
+@startuml
+:user: -left-> (aplicatia va deschide pagina principala):dand clic pe iconita aplicatiei
+:user: -right-> (aplicatia va afisa o eroare in care va descrie motivul erori):daca datele sunt introduse incorect
+:user: -up-> (aplicatia se va loga):intruduce datele corect
+:user: -down-> (aplicatia va crea un cont):introduce datele
+@enduml
+
+@enduml
