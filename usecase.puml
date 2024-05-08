@@ -1,9 +1,0 @@
-@startuml
-:user: --> (aplicatia va crea un cont ):introduce  datele
-:user: -->(aplicatie se va loga):introduce datele de logare coret
-:user: -up-> (aplicatia va deschide pagina principala):dand clic pe iconita aplicatiei
-:user: -(aplicatia va afisa o eroare in care va descrie motivul erori):daca datele sunt introduse incorect
-
-@enduml
-
-
