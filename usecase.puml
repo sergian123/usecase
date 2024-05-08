@@ -1,9 +1,10 @@
 @startuml
-left to right direction
-:user: -left-> (isi creaza cont):creaza date pentru logare
+:user: --> (aplicatia va crea un cont ):creaza date pentru logare
 :user: -right-> (se logheaza):introduce datele de logare
-:user: -up-> (deschide pagina principala):dand clic pe iconita aplicatiei
+:user: -up-> (aplicatia va deschide pagina principala):dand clic pe iconita aplicatiei
 :user: -down-> (sculele de care are nevoie):selecteaza scule
+:user: -(aplicatia va afisa o eroare in care va descrie motivul erori):daca datele sunt introduse incorect
+
 @enduml
 
 
